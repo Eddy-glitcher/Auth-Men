@@ -54,7 +54,7 @@ app.get( '*', (req,res) => {
 // })
 
 // Para escuchar cualquier info que venga hacia algun puerto en especifico
-app.listen( process.env.PORT, ()=>{
+app.listen( process.env.PORT || 4000, ()=>{
     // Este callback se ejecuta cuando levantamos la aplicación
     console.log(`servidor corriendo en puerto ${process.env.PORT}`);
 });
