@@ -1,3 +1,2 @@
-node_modules/
-.env
+
 # Heroku reconstruye los modulos de node, ya que analisa la aplicación completa y los recosntruye si hace falta 
